@@ -1,0 +1,16 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Database - Use specific version that has pre-built wheels
+# If this fails, try: pip install psycopg2-binary --no-build-isolation
+psycopg2-binary==2.9.10
+
+# HTTP Client
+httpx==0.25.0
+
+# Data Validation
+pydantic==2.5.0
+
+# Environment Variables
+python-dotenv==1.0.0
